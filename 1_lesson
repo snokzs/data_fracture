@@ -1,0 +1,17 @@
+name = 'Anna' #string
+age = 17 #integer
+height = 1.68 #float
+has_laptop = True #boolean
+
+print(name)
+
+names = ['Anna', 'Oskars', 'Jenifer', 'Anna']
+ages = [17, 18, 18, 15]
+
+#Anna is 17 years old
+#Oskars is 18 years old
+#Jenifer is 28 years old
+#Anna is 15 years old
+
+for name in names:
+    print('Cau ' + name + '!')
